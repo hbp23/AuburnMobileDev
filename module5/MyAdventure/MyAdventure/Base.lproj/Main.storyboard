@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyAdventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="startBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Rka-qc-Zan">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ve7-4x-pip">
+                                <rect key="frame" x="30" y="50" width="333" height="704"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You find a mysterious pocket watch" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xx5-tL-GfR">
+                                        <rect key="frame" x="0.0" y="0.0" width="333" height="176"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" systemColor="systemPinkColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvn-Db-75I">
+                                        <rect key="frame" x="0.0" y="176" width="333" height="352"/>
+                                        <string key="text">You turn on the news minutes later and see that 5 criminals were apprehend by the police with sheer luck. They were planning on blowing the whole world up. You feel puzzled that the way they got caught seemed so unplausible, but you also felt relieved for pressing the button on the watch.</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="LmW-lf-GUM">
+                                        <rect key="frame" x="0.0" y="528" width="333" height="176"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxD-4J-Qbv">
+                                                <rect key="frame" x="0.0" y="0.0" width="333" height="85.666666666666671"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="strokeColor" systemColor="labelColor"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="optionPicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZKj-XL-0yZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNl-2N-nSs">
+                                                <rect key="frame" x="0.0" y="90.666666666666629" width="333" height="85.333333333333314"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="strokeColor" systemColor="labelColor"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="optionPicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Iy-Yk-gvq"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tvn-Db-75I" firstAttribute="height" secondItem="xx5-tL-GfR" secondAttribute="height" multiplier="2" id="eGO-Xk-sPh"/>
+                                    <constraint firstItem="LmW-lf-GUM" firstAttribute="height" secondItem="xx5-tL-GfR" secondAttribute="height" id="nZ5-9G-Giu"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ve7-4x-pip" secondAttribute="bottom" constant="30" id="4z9-Zj-z4H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ve7-4x-pip" secondAttribute="trailing" constant="30" id="8cH-qc-zTD"/>
+                            <constraint firstItem="Ve7-4x-pip" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="EcD-eO-K0f"/>
+                            <constraint firstAttribute="bottom" secondItem="Rka-qc-Zan" secondAttribute="bottom" id="KHR-AJ-9yd"/>
+                            <constraint firstItem="Rka-qc-Zan" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="O3w-yT-2Vk"/>
+                            <constraint firstItem="Ve7-4x-pip" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ddb-6H-rQb"/>
+                            <constraint firstItem="Rka-qc-Zan" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qBp-Ye-znU"/>
+                            <constraint firstItem="Rka-qc-Zan" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uvt-pW-uj3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="background" destination="Rka-qc-Zan" id="BaV-gc-EFo"/>
+                        <outlet property="descriptionLabel" destination="tvn-Db-75I" id="Sre-ML-H7r"/>
+                        <outlet property="optionOne" destination="jxD-4J-Qbv" id="WOM-Wf-XYV"/>
+                        <outlet property="optionTwo" destination="BNl-2N-nSs" id="2Gj-bY-6RL"/>
+                        <outlet property="titleLabel" destination="xx5-tL-GfR" id="tm9-CK-iqb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-138.1679389312977" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="startBackground" width="426.66665649414062" height="309"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
