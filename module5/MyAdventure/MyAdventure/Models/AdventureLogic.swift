@@ -72,5 +72,25 @@ struct AdventureLogic {
         let nextID = currentNode!.choices[optionIndex].nextNodeID
         currentNode = nodes[nextID]
     }
+    
+    func getBackgroundImageName() -> String {
+        return currentNode!.backgroundImageName
+    }
+    
+    func getTitle() -> String {
+        return currentNode!.title
+    }
+    
+    func getDescription() -> String {
+        return currentNode!.description
+    }
+    
+    func getOptionOneText() -> String {
+        return currentNode!.choices[0].text
+    }
+    
+    func getOptionTwoText() -> String {
+        return currentNode!.choices[1].text
+    }
 }
 

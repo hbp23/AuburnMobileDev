@@ -32,12 +32,12 @@ class ViewController: UIViewController {
     }
     
     @objc func updateUI() {
-        background.image = UIImage(named: logic.currentNode!.backgroundImageName)
-        titleLabel.text = logic.currentNode!.title
-        descriptionLabel.text = logic.currentNode!.description
+        background.image = UIImage(named: logic.getBackgroundImageName())
+        titleLabel.text = logic.getTitle()
+        descriptionLabel.text = logic.getDescription()
         
-        optionOne.setTitle(logic.currentNode!.choices[0].text, for: .normal)
-        optionTwo.setTitle(logic.currentNode!.choices[1].text, for: .normal)
+        optionOne.setTitle(logic.getOptionOneText(), for: .normal)
+        optionTwo.setTitle(logic.getOptionTwoText(), for: .normal)
     }
 
 }
