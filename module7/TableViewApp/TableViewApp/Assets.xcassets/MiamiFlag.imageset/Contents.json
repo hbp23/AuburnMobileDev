@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Flag_of_Miami,_Florida.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Flag_of_Miami,_Florida@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Flag_of_Miami,_Florida@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

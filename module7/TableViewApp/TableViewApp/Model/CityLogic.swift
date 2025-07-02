@@ -1,0 +1,85 @@
+//
+//  CityLogic.swift
+//  TableViewApp
+//
+//  Created by Harsh Patel on 7/1/25.
+//
+
+import Foundation
+
+struct CityLogic {
+    
+    var cities = [
+        City(city: "Auburn", state: "AL",
+             nickname: "• Nickname: \"The Loveliest Village on the Plains\"",
+             population: "• Population: ~76,000 (2020)",
+             one: "• Home of Auburn University",
+             two: "• Rapidly growing college town",
+             three: "• Combines southern charm and academic culture",
+             photoName: "AuburnFlag", backgroundImage: "AuburnSkyline"),
+        City(city: "Los Angeles", state: "CA",
+             nickname: "• Nickname: \"City of Angels\"",
+             population: "• Population: ~4,000,000 (2020)",
+             one: "• Diverse, global population with over 200 languages and cultures",
+             two: "• Center of the entertainment industry",
+             three: "• Significant economic hub with major industries",
+             photoName: "LosAngelesFlag", backgroundImage: "LosAngelesSkyline"),
+        City(city: "Boston", state: "CT",
+             nickname: "• Nickname: \"Beantown\"",
+             population: "• Population: ~675,647 (2020)",
+             one: "• One of America’s oldest cities, rich in Revolutionary history",
+             two: "• Leading center for top universities",
+             three: "• Strong healthcare and finance sectors",
+             photoName: "BostonFlag", backgroundImage: "BostonSkyline"),
+        City(city: "Miami", state: "FL",
+             nickname: "• Nickname: \"The Magic City\"",
+             population: "• Population: ~442,241 (2020)",
+             one: "• Vibrant Latin and Caribbean cultural scene",
+             two: "• Major tourist destination",
+             three: "• International finance, trade, and port economy",
+             photoName: "MiamiFlag", backgroundImage: "MiamiSkyline"),
+        City(city: "Atlanta", state: "GA",
+             nickname: "• Nickname: \"Hotlanta\"",
+             population: "• Population: ~498,715 (2020)",
+             one: "• Headquarters of major firms",
+             two: "• Hosted the 1996 Olympics",
+             three: "• Home of the world's busiest airport",
+             photoName: "AtlantaFlag", backgroundImage: "AtlantaSkyline"),
+        City(city: "Chicago", state: "IL",
+             nickname: "• Nickname: \"The Windy City\"",
+             population: "• Population: ~2,746,388 (2020)",
+             one: "• Iconic architecture along Lake Michigan",
+             two: "• Cultural center for music, food, sports & theater",
+             three: "• Major finance and transportation hub in the Midwest",
+             photoName: "ChicagoFlag", backgroundImage: "ChicagoSkyline"),
+        City(city: "New York City", state: "NY",
+             nickname: "• Nickname: \"The Big Apple\"",
+             population: "• Population: ~8,804,190 (2020)",
+             one: "• Most populous U.S. city",
+             two: "• Landmarks: Times Square, Statue of Liberty, Broadway, Central Park",
+             three: "• Home to the UN headquarters and financial district",
+             photoName: "NewYorkCityFlag", backgroundImage: "NewYorkCitySkyline"),
+        City(city: "Memphis", state: "TN",
+             nickname: "• Nickname: \"Home of the Blues\"",
+             population: "• Population: ~633,104 (2020)",
+             one: "• Birthplace of iconic music like Rock 'n' Roll",
+             two: "• Major port city on the Mississippi River",
+             three: "• Rich history in civil rights and southern culture",
+             photoName: "MemphisFlag", backgroundImage: "MemphisSkyline"),
+        City(city: "Nashville", state: "TN",
+             nickname: "• Nickname: \"Music City\"",
+             population: "• Population: ~689,447 (2020)",
+             one: "• Globally known as the center of country music",
+             two: "• Rapid growth with major corporations relocating",
+             three: "• Strong healthcare industry and vibrant downtown redevelopment",
+             photoName: "NashvilleFlag", backgroundImage: "NashvilleSkyline"),
+        City(city: "Houston", state: "TX",
+             nickname: "• Nickname: \"Space City\"",
+             population: "• Population: ~2,304,580 (2020)",
+             one: "• Home to NASA’s Johnson Space Center and aerospace industry",
+             two: "• Major energy and petrochemical hub with global oil companies",
+             three: "• Extremely diverse population and dynamic cultural communities",
+             photoName: "HoustonFlag", backgroundImage: "HoustonSkyline")
+    ]
+    
+}
