@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "tangerine-newt-a9rxefN9vgY-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "tangerine-newt-a9rxefN9vgY-unsplash@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "tangerine-newt-a9rxefN9vgY-unsplash@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

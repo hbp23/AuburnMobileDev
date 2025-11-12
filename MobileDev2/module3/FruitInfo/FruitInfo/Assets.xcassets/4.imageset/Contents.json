@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "julia-zolotova-M_xIaxQE3Ms-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "julia-zolotova-M_xIaxQE3Ms-unsplash@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "julia-zolotova-M_xIaxQE3Ms-unsplash@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
